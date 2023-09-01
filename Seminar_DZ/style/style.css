@@ -223,21 +223,21 @@ textarea:focus {
     color-scheme: red;
 } */
 
-iframe {
+/* iframe {
     border-radius: 10px;
     background-color: aqua;
     border: 1px solid yellowgreen;
 
-}
+} */
 
 /* Стили для аудиоплеера и его элементов управления */
-audio {
+/* audio {
     background-color: #333;
     color: white;
     border: 5px solid yellowgreen;
     border-radius: 5px;
     width: 100%;
-}
+} */
 
 /* Стили для элементов управления (кнопок) */
 /* audio::-webkit-media-controls-panel {
