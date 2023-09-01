@@ -37,12 +37,14 @@ a:active {
 }
 
 .h1 {
-    color: #222222;
+    color: #060505;
     font-size: 38px;
     line-height: 36px;
     font-weight: bold;
-    margin-top: 20px
+    margin-top: 20px;
+    text-align: center;
 }
+
 
 h2 {
     color: coral;
@@ -60,39 +62,46 @@ h2 {
     color: #7D7987
 }
 
-.link3 {
+/* .link3 {
     color: coral;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 80px;
-}
+} */
 
 form {
-    display: flex;
+    display: contents;
     flex-direction: column;
     max-width: 400px;
     max-height: 400px;
     align-items: flex-start;
 }
 
-.field {
+/* .field {
     height: 30px;
     outline: none;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
     line-height: 30px;
+    display: block;
+    margin-bottom: 20px;
 }
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+} */
 
 input {
     border: none;
     outline: none;
-
-
 }
 
-.button {
+/* .button {
     width: max-content;
     height: 30px;
     font-size: 14px;
@@ -108,7 +117,7 @@ input {
 
 .button:hover {
     background-color: #0056b3;
-}
+} */
 
 div {
     margin: 10px;
@@ -164,27 +173,43 @@ div p {
     object-fit: cover;
 }
 
-/* Стили для контента (вашего текста, изображений и т. д.) */
+/* Стили для контента */
 .content {
     position: relative;
     z-index: 1;
     text-align: center;
-    padding: 100px;
+    padding: 150px;
     /* color: white; */
 }
 
-/* Стили для навигационного меню */
 
+/* Стили для полей ввода текста */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 98%;
+    height: 100%;
+    font-size: 14px;
+    padding: 10px;
+    /* Внутренний отступ */
+    border: 1px solid black;
+    background-color: #06b300;
+    /* Граничная линия с цветом рамки */
+    border-radius: 5px;
+    /* Скругленные углы */
+    transition: background-color 0.3s ease;
+    /* Плавное изменение цвета фона при наведении */
 
-/* Стили для полей ввода */
-.field {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.field input {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+input:focus {
+    background-color: aqua;
+    border: 2px solid red;
+}
+
+textarea:focus {
+    background-color: yellowgreen;
+    border: 5px solid blue;
 }
