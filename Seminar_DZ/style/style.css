@@ -216,12 +216,12 @@ textarea:focus {
 
 
 
-figure {
+/* figure {
     color: blue;
 
     caret-color: aqua;
     color-scheme: red;
-}
+} */
 
 iframe {
     border-radius: 10px;
@@ -240,14 +240,13 @@ audio {
 }
 
 /* Стили для элементов управления (кнопок) */
-audio::-webkit-media-controls-panel {
+/* audio::-webkit-media-controls-panel {
     background-color: #333;
-    /* Цвет фона элементов управления (для браузеров WebKit) */
-    color: white;
-    /* Цвет текста элементов управления (для браузеров WebKit) */
-}
+color: white;
+} */
 
-audio::-webkit-media-controls-play-button,
+
+/* audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-pause-button,
 audio::-webkit-media-controls-mute-button,
 audio::-webkit-media-controls-volume-slider,
@@ -257,23 +256,22 @@ audio::-webkit-media-controls-timeline,
 audio::-webkit-media-controls-fullscreen-button {
     background-color: #007bff;
     color: white;
-    border: none;
-    /* Убираем границы кнопок */
-    border-radius: 3px;
-    margin: 0;
-    /* Убираем отступы между кнопками */
-    padding: 5px 10px;
-    /* Внутренний отступ кнопок */
+    border: none; 
+border-radius: 3px;
+margin: 0;
+padding: 5px 10px;
+
 }
+*/
 
 /* Стили для активной кнопки (нажатой) */
-audio::-webkit-media-controls-play-button:not(:disabled):active,
+/* audio::-webkit-media-controls-play-button:not(:disabled):active,
 audio::-webkit-media-controls-pause-button:not(:disabled):active {
     background-color: #0056b3;
-}
+} */
 
 /* Стили для ползунка громкости (Volume Slider) */
-audio::-webkit-media-controls-volume-slider {
+/* audio::-webkit-media-controls-volume-slider {
     width: 100px;
 
-}
+} */
